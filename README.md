@@ -14,31 +14,31 @@ Sentiment is a Node.js module that uses the [AFINN-165](http://www2.imm.dtu.dk/p
 ## Table of contents
 
 - [sentiment](#sentiment)
-    - [AFINN-based sentiment analysis for Node.js](#afinn-based-sentiment-analysis-for-nodejs)
-  - [Table of contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage example](#usage-example)
-  - [Adding new languages](#adding-new-languages)
-  - [Adding and overwriting words](#adding-and-overwriting-words)
-  - [API Reference](#api-reference)
+    - [AFINN-based sentiment analysis for Node.js](#AFINN-based-sentiment-analysis-for-Nodejs)
+  - [Table of contents](#Table-of-contents)
+  - [Installation](#Installation)
+  - [Usage example](#Usage-example)
+  - [Adding new languages](#Adding-new-languages)
+  - [Adding and overwriting words](#Adding-and-overwriting-words)
+  - [API Reference](#API-Reference)
       - [`sentiment.analyze(phrase, [options], [callback])`](#sentimentanalyzephrase-options-callback)
-      - [`AnalyzeOptions`](#analyzeoptions)
-      - [`sentiment.registerLanguage(languageCode, language)`](#sentimentregisterlanguagelanguagecode-language)
-      - [`Language`](#language)
-      - [`ScoringStrategy`](#scoringstrategy)
-  - [How it works](#how-it-works)
-    - [AFINN](#afinn)
-    - [Tokenization](#tokenization)
-  - [Benchmarks](#benchmarks)
-  - [Validation](#validation)
-    - [Rand Accuracy (AFINN Only)](#rand-accuracy-afinn-only)
-    - [Rand Accuracy (AFINN + Additions)](#rand-accuracy-afinn--additions)
-  - [Testing](#testing)
+      - [`AnalyzeOptions`](#AnalyzeOptions)
+      - [`sentiment.registerLanguage(languageCode, language)`](#sentimentregisterLanguagelanguageCode-language)
+      - [`Language`](#Language)
+      - [`ScoringStrategy`](#ScoringStrategy)
+  - [How it works](#How-it-works)
+    - [AFINN](#AFINN)
+    - [Tokenization](#Tokenization)
+  - [Benchmarks](#Benchmarks)
+  - [Validation](#Validation)
+    - [Rand Accuracy (AFINN Only)](#Rand-Accuracy-AFINN-Only)
+    - [Rand Accuracy (AFINN + Additions)](#Rand-Accuracy-AFINN--Additions)
+  - [Testing](#Testing)
 
 ## Installation
 
 ```bash
-npm install sentiment
+npm install @jharrilim/sentiment
 ```
 
 ## Usage example
